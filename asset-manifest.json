@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/quote-browser-manager/static/css/main.3a6fd054.chunk.css",
+    "main.js": "/quote-browser-manager/static/js/main.aa6c027c.chunk.js",
+    "main.js.map": "/quote-browser-manager/static/js/main.aa6c027c.chunk.js.map",
+    "runtime-main.js": "/quote-browser-manager/static/js/runtime-main.8f434435.js",
+    "runtime-main.js.map": "/quote-browser-manager/static/js/runtime-main.8f434435.js.map",
+    "static/css/2.98837b08.chunk.css": "/quote-browser-manager/static/css/2.98837b08.chunk.css",
+    "static/js/2.0bc81400.chunk.js": "/quote-browser-manager/static/js/2.0bc81400.chunk.js",
+    "static/js/2.0bc81400.chunk.js.map": "/quote-browser-manager/static/js/2.0bc81400.chunk.js.map",
+    "index.html": "/quote-browser-manager/index.html",
+    "precache-manifest.e32b3e0492d140593d0a7a1da6e0cfcd.js": "/quote-browser-manager/precache-manifest.e32b3e0492d140593d0a7a1da6e0cfcd.js",
+    "service-worker.js": "/quote-browser-manager/service-worker.js",
+    "static/css/2.98837b08.chunk.css.map": "/quote-browser-manager/static/css/2.98837b08.chunk.css.map",
+    "static/css/main.3a6fd054.chunk.css.map": "/quote-browser-manager/static/css/main.3a6fd054.chunk.css.map",
+    "static/js/2.0bc81400.chunk.js.LICENSE.txt": "/quote-browser-manager/static/js/2.0bc81400.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/quote-browser-manager/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f434435.js",
+    "static/css/2.98837b08.chunk.css",
+    "static/js/2.0bc81400.chunk.js",
+    "static/css/main.3a6fd054.chunk.css",
+    "static/js/main.aa6c027c.chunk.js"
+  ]
+}
