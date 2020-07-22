@@ -1,0 +1,2 @@
+# quote-browser-manager
+This is a Single Page Application (SPA) built using notable libraries in React, React Router, and Redux. The application gets quote data from a third-party API (FavQs). It allows one to add/remove a quote as a favorite to/from a database (Firebase). All API and database interaction are managed through domain services. The following diagram illustrates the general design of the application.
