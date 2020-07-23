@@ -1,3 +1,5 @@
+// import Firebase from 'firebase';
+// const Data = new Firebase('https://quote-browser-manager.firebaseio.com/');
 import favqsApi from "../apis/favqs-api";
 
 import firebaseDb from "../apis/firebase";
@@ -21,16 +23,18 @@ export const createQuote = (formValues) => async (dispatch) => {
 //   dispatch({ type: FETCH_FIREBASE, payload: response.data });
 
 // };
-export const fetchFirebase = () => async (dispatch) => {
-  return (dispatch) => {
-    firebaseDb
-      .child("favorite_quotes")
-      .on("value")
-      .then((snapshot) =>
-        dispatch({ type: FETCH_FIREBASE, payload: snapshot.val() })
-      );
-  };
+export const fetchFirebase = () => async  (dispatch) => {
+  return  dispatch => {
+    favqsApi.on('value', snapshot => {
+        dispatch({
+            type: FETCH_FIREBASE,
+            payload: snapshot.val()
+        });
+    });
+  }
 };
+
+
 
 export const fetchQuotes = () => async (dispatch) => {
   const response = await favqsApi.get("/api/quotes/");

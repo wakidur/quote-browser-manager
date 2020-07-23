@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import SpinnerComponent from "./Spinner";
-import { fetchFirebase } from "../actions";
+import { fetchData } from "../actions/getFirebase";
 
 class FavoriteQuotesComponent extends Component {
  
 
   componentDidMount() {
-    this.props.fetchFirebase();
+    this.props.fetchData();
+    
   }
 
   render() {
@@ -41,7 +42,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = {
-  fetchFirebase,
+  fetchData,
 };
 
 export default connect(
